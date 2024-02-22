@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 9.3125rem;
+}
+
+.header__nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav-item {
+    font-weight: 600;
+}
+
+.header__nav-link {
+    color: #052460;
+}
+
+.header__nav-link:hover {
+    text-decoration: underline;
+}
