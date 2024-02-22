@@ -1,4 +1,5 @@
 <?php get_header(); ?>
+
 <main class="container">
     <div class="blog__intro">
         <div class="column-heading">
