@@ -1,16 +1,21 @@
 .header {
     display: flex;
-    align-items: center;
     justify-content: center;
     height: 9.3125rem;
 }
 
+nav.header__nav {
+    display: flex;
+    align-items: center;
+}
+
 .header__nav-list {
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
 }
 
 .header__nav-item {
+    font-size: 14px;
     font-weight: 600;
 }
 
