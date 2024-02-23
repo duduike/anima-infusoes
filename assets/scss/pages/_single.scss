@@ -1,0 +1,36 @@
+.main-single {
+  column-gap: 50px;
+  @media (max-width: 1024px) {
+    column-gap: 35px;
+    row-gap: 50px;
+  }
+  .thumb-single {
+    img {
+      object-fit: cover;
+    }
+  }
+  .column-leiaMais {
+    row-gap: 35px;
+
+    .bodyLeiaMais {
+      cursor: pointer;
+      span {
+        padding: 35px;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 1px;
+        color: white;
+        background-color: #0060aead;
+        border-radius: 2px;
+
+        @media (max-width: 992px) {
+          padding: 80px;
+        }
+
+        @media (max-width: 768px) {
+          padding: 30px;
+        }
+      }
+    }
+  }
+}
