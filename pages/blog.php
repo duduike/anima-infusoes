@@ -29,7 +29,6 @@ $text_post = get_field('text_post');
 
     <?php foreach ($posts as $post) { ?>
         <article class="post">
-
             <div style="background-image: url('<?php echo $post['img_blog']; ?>')" class="img-post"></div>
             <div class="content-post">
                 <h4><?php echo $post['title_post']; ?></h4>
