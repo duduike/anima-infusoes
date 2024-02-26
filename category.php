@@ -1,8 +1,23 @@
-<?php get_header(); ?>
+<?php get_header(); 
+
+
+$descricao = get_field('descricao');
+$conteudo = get_field('conteudo');
+
+?>
 
 <div class="container">
     <div class="row">
-        <main class="col-12">
+        <main class="col-12 d-flex flex-column align-items-center">
+            <div class="titles-category d-flex flex-column flex-lg-row my-5">
+                <div class="col-12 col-lg-5 title-single">
+                    <h4><?php echo ($descricao); ?></h4>
+                </div>
+                <div class="col-12 col-lg-7 description-single">
+                    <p><?php echo ($conteudo); ?></p>
+                </div>
+            </div>
+
             <?php if (have_posts()) : ?>
 
                 <?php

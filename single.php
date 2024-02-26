@@ -17,6 +17,7 @@ get_header();
 <div class="container mt-5">
     <div class="row">
         <main class="col-12 d-flex flex-column flex-lg-row main-single">
+
             <div class="col-lg-9 col-12">
                 <?php
                 // Start the Loop.
@@ -25,12 +26,12 @@ get_header();
                     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
                         <div class="d-flex flex-column align-items-center">
 
-                            <header class="entry-header thumb-single">
+                            <header class="entry-header thumb-single w-100">
                                 <img title="image title" alt="thumb image" class="wp-post-image" src="<?= wp_get_attachment_url(get_post_thumbnail_id()); ?>" style="width:100%; height:auto;">
                             </header><!-- .entry-header -->
 
-                            <div class="entry-content">
-                                <h4 class="text-center mt-3 mb-3"><?php echo get_the_title(); ?></h4>
+                            <div class="entry-content w-100">
+                                <h1 class="text-left mt-4 mb-4"><?php echo get_the_title(); ?></h1>
                                 </span>
                                 <div class="conteudoSingle">
                                     <?php echo get_field('conteudo', get_the_ID()) ?>

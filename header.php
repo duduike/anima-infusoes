@@ -22,26 +22,28 @@
     <header class="header">
       <nav class="header__nav">
         <div class="header__logo">
-          <img src="<?php echo get_template_directory_uri(); ?>/assets/images/166x108-Logo.webp" alt="#" class="header__logo-img">
+          <a href="https://animainfusoes.com.br/">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/166x108-Logo.webp" alt="#" class="header__logo-img">
+          </a>
         </div>
         <ul class="header__nav-list">
           <li class="header__nav-item">
-            <a href="#" class="header__nav-link">Quem Somos</a>
+            <a href="https://animainfusoes.com.br/#page-block-o1rn2y5pge" class="header__nav-link">Quem Somos</a>
           </li>
           <li class="header__nav-item">
-            <a href="#" class="header__nav-link">Nossa Clínica</a>
+            <a href="https://animainfusoes.com.br/#page-block-772k962dwo3" class="header__nav-link">Nossa Clínica</a>
           </li>
           <li class="header__nav-item">
-            <a href="#" class="header__nav-link">Serviços Oferecidos</a>
+            <a href="https://animainfusoes.com.br/#page-block-3onv6odobj8" class="header__nav-link">Serviços Oferecidos</a>
           </li>
           <li class="header__nav-item">
-            <a href="#" class="header__nav-link">Condições Clínicas</a>
+            <a href="https://animainfusoes.com.br/#page-block-yt83u3zw8yg" class="header__nav-link">Condições Clínicas</a>
           </li>
           <li class="header__nav-item">
-            <a href="#" class="header__nav-link">Medicamentos</a>
+            <a href="https://animainfusoes.com.br/#page-block-wkwg62jce3" class="header__nav-link">Medicamentos</a>
           </li>
           <li class="header__nav-item">
-            <a href="#" class="header__nav-link">Agendamentos</a>
+            <a href="https://animainfusoes.com.br/#page-block-6j3qm1k7285" class="header__nav-link">Agendamentos</a>
           </li>
           <li class="header__nav-item">
             <a href="/blog" class="header__nav-link">Blog</a>

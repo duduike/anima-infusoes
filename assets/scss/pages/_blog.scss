@@ -58,13 +58,13 @@
   display: flex;
   max-width: 1080px;
   width: 100%;
-  background: rgb(32, 167, 193);
+  background: #eceff2;
   height: 406px;
   margin-bottom: 40px;
 
   @media (max-width: 768px) {
     flex-direction: column;
-    height: 50%;
+    height: 100%;
   }
 
   .img-post {
